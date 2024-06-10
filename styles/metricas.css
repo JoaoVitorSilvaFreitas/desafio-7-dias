@@ -6,6 +6,11 @@
     margin-bottom: 4em;
 }
 
+.container_métricas_box{
+    display: flex;
+    flex: column;
+    margin: 4em 8em;
+}
 .container_métricas {
     display: flex;
     flex-direction: column;
