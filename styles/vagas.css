@@ -1,0 +1,42 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+.container_vagas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin: 4em 4em;
+}
+
+.vagas_subtitulo {
+    background-color: var(--cor-vinho-opacidade);
+    color: var(--vinho);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 125px;
+    border-radius: 24px;
+    text-decoration: none;
+    
+}
+
+.vagas_titulo {
+    color: var(--cor-banner);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.vagas_texto {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}

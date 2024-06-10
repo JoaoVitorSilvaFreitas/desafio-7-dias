@@ -1,0 +1,34 @@
+.cabeçalho {
+    display: flex;
+    background-color: var(--branco);
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+}
+
+.cabeçalho_imagem {
+    padding: 1em;
+    margin: 0 1em;
+}
+
+.lista_menu {
+    display: flex;
+}
+
+.lista_menu_item {
+    padding: 1em;
+}
+
+.lista_menu_link,
+.lista_menu_botão {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.lista_menu_botão {
+    background-color: var(--vinho);
+    color: var(--branco);
+    padding: 1em 2.2em;
+    font-weight: 500;
+    border-radius: 8px;
+}

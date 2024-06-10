@@ -1,0 +1,31 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; 
+    flex-wrap: wrap;
+    margin: 6em;
+}
+
+.banner_subtitulo{
+    font-weight: 600;
+    color: var(--vinho);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner_titulo {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 3%;
+    color: var(--cor-banner);
+    
+}
+
+.banner_texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza);
+    line-height: 30px;
+}

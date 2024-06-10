@@ -1,0 +1,18 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(metricas.css);
+@import url(vagas.css);
+
+:root {
+    --branco: #FFFFFF;
+    --cinza:#667085;
+    --vinho:#8E2424;
+    --cor-vinho-opacidade: rgba(142, 36, 36, 0.05);
+    --cor-banner:#101828;
+    --fonte-principal: "Inter",Sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+}
