@@ -1,0 +1,70 @@
+.rodapé_texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-background);
+    padding: 96px 0;
+    gap: 32px;
+}
+
+.rodapé_texto_maior {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.rodapé_texto_menor {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cinza);
+}
+
+.rodapé_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodapé_texto_email{
+    width: 360px;
+    height: 24px;
+    margin-right: 16px;
+    gap: 8px;
+    padding: 12px 14px 12px 16px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(208, 213, 221, 1)
+
+}
+
+.rodapé_container_botão {
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    color: var(--branco);
+    text-decoration: none;
+    width: 116px;
+    height: 24px;
+    border: 1px solid var(--vinho);
+    padding: 12px 20px;
+    gap: 8px;
+    background-color: var(--vinho);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.rodapé_copyright {
+    display: flex;
+    justify-content: center;
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 32px;
+    border-color: var(--cinza);
+}
